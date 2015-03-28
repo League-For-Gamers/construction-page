@@ -1,0 +1,52 @@
+/* -------------------------------------------------------------- */
+/* --- REPSONSE 980px ------------------------------------------- */
+/* -------------------------------------------------------------- */
+
+@media screen and (max-width:1200px) {
+
+
+}
+
+/* -------------------------------------------------------------- */
+/* --- REPSONSE 768px -------------------------------------------- */
+/* -------------------------------------------------------------- */
+@media screen and (max-width:992px) {
+.styled div, .styled div .counter-number-bg {font-size: 90px;line-height: 90px;}
+.subscribe-wrapper, .contact-wrapper {width: 100%;}
+.contact-form .input-wrap > input {margin-bottom: 24px;}
+.subscribe-wrapper {padding: 0;}
+
+.about-single-block {border-top: 2px solid #29c3af;}
+
+.testimonial-author {border-right-width: 0; border-bottom-width: 2px;}
+
+}
+
+/* -------------------------------------------------------------- */
+/* --- REPSONSE 440px ------------------------------------------- */
+/* -------------------------------------------------------------- */
+@media screen and (max-width:768px) {
+
+.styled div, .styled div .counter-number-bg {font-size: 80px;line-height: 80px;}
+
+
+}
+
+@media screen and (max-width:600px) {
+.styled div, .styled div .counter-number-bg {font-size: 46px;line-height: 46px;}
+
+
+.subscription-form {text-align: center;}
+.subscription-form > div {background: transparent;}
+.subscription-form input, .subscription-form button {margin-top: 12px; float: none;}
+}
+
+/* -------------------------------------------------------------- */
+/* --- REPSONSE 300px ------------------------------------------- */
+/* -------------------------------------------------------------- */
+
+@media screen and (max-width:440px) {
+.styled div, .styled div .counter-number-bg {font-size: 30px; line-height: 30px;}
+.styled div .counter-segment-name {font-size: 14px; line-height: 14px;}
+.subscription-form input {width: 100%;}
+}
